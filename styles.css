@@ -1,0 +1,60 @@
+body {
+  background-color: #a7c5eb;
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  padding: 10px;
+  background-color: #bc6c25;
+  border: solid 7px black;
+  line-height: 1rem;
+  font-size: 100%;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 !important;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+.square {
+  height: 30px;
+  width: 30px;
+  border: 1px black solid;
+  display: inline-block;
+}
+
+.grid {
+  margin: 30px 10px 20px;
+}
+
+.row {
+  margin: 0;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.individual-square {
+  margin: 0;
+}
+
+.button {
+  display: block;
+  margin: 20px;
+  line-height: 1.5rem;
+  border: solid 0.15em #4f0e0e;
+  padding: 1.5%;
+  font-size: 1.2rem;
+  border-radius: 5%;
+  font-family: "PT Sans", sans-serif;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 12px 3px black;
+  transition: 0.05s;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
